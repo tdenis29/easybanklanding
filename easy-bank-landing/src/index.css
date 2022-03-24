@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: border-box;
   list-style-type: none;
+  font-size: 18px;
+  font-family: 'Public Sans', sans-serif;
 
 }
 .App{
@@ -24,7 +26,7 @@ header{
 
 .overlay {
   position: absolute;
-  top: 17%;
+  top: 20%;
   left: 0;
   right: 0;
   bottom: 0;
@@ -178,6 +180,10 @@ header{
 }
 .landing-headline{
   margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.landing-support{
+  color: grey;
 }
 .landing-button-container{
   margin-top: 1rem;
@@ -216,7 +222,7 @@ header{
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 1rem;
+
 }
 .ICard-title{
   margin: 1rem 0;
@@ -229,7 +235,7 @@ header{
 
 .articles-section-container{
   background-color: white;
-  padding: 1rem 0 3rem;
+  padding: 1rem 0 0 0;
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -250,6 +256,7 @@ header{
   align-items: center;
   background-color: whitesmoke;
   width: 100%;
+  padding: 0 0 3rem 0;
 }
 .article{
   width: 90%;
@@ -307,4 +314,10 @@ footer{
   color: white;
   padding: .75rem;
   cursor:pointer;
+}
+.footer-button{
+  margin: 1rem;
+}
+.copyright{
+  color: grey;
 }

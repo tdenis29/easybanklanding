@@ -63,7 +63,10 @@ export default function Footer () {
             </ul>
 
 
-            <button className="landing-button">Request Invite</button>    
+            <button className="landing-button footer-button">Request Invite</button>    
+
+
+            <small className="copyright">&copy;Easybank. All rights reserved.</small>
         </footer>
     )
 }
