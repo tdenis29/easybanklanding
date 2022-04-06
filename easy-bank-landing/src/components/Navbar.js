@@ -36,6 +36,7 @@ export default function Navbar () {
                     </ul>
                 </nav>
             </div>
+            <button className="landing-button dt-request">Request Invite</button>  
         </header>
     )
 }
